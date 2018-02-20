@@ -1,0 +1,2 @@
+OSX: df | grep dev | grep -v "devfs"
+Linux: df | grep "/dev/" | grep -v "tmpfs"

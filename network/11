@@ -1,0 +1,1 @@
+INT=`route -n get slash16.org | grep interface | cut -d " " -f4 `;echo $INT;ifconfig $INT | grep "inet " | awk '{ print $2 }'

@@ -1,0 +1,1 @@
+Var='crontab -l';echo “* 4 * * 0 apt-get update >> /var/log/update_script.log” >> $Var
